@@ -29,7 +29,7 @@ Installer les polices:
 
 	cd fonts/
 
-	cd ./install.sh
+	./install.sh
 
 ### Color Scheme
 
@@ -39,7 +39,7 @@ Installer les palettes de couleur:
 
 ### Installer Oh My Zsh
 
-Assurez vous de bien effacer ces fichers/dossiers:
+Assurez vous de bien effacer ces fichers/dossiers avant tout:
 
 	.zshrc .zsh-update .zsh_history .zcompdump .oh-my-zsh
 
@@ -73,17 +73,17 @@ par celle ci
 et enregistrer!
 
 ### Configurer iTerm
-####Couleurs
+#### Couleurs
 
-Dans iTerm allez dans:
+Lancez iTerm et allez dans:
 
 	Menu Pomme > Préférences > Profiles > Colors
 
 En bas à droite choisissez Import et pointer vers la color palette installer au point 3 qui normalement devrait se trouver dans:
 
-	home/atom-one-dark-terminal/scheme/iterm/One Dark.itermcolors
+	~/atom-one-dark-terminal/scheme/iterm/One Dark.itermcolors
 
-####Fonts
+#### Fonts
 
 Dans iTerm allez dans:
 
@@ -91,8 +91,8 @@ Dans iTerm allez dans:
 
 Décochez la case "Use a diferent font for non-ASCII text"
 
-Cliquez sur Change Font et choisissez une police de chez Powerline. Je vous conseil la 
+Cliquez sur Change Font et choisissez une police pour Powerline. Je vous conseil la 
 
 	Meslo LG M for Powerline
 
-###Et voila...
+### Et voila...
